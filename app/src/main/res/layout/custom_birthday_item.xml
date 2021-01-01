@@ -5,12 +5,12 @@
     >
 
 
-
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:id="@+id/rootLinearLayout">
+        android:id="@+id/rootLinearLayout"
+        >
 
         <ImageView
             android:layout_width="wrap_content"

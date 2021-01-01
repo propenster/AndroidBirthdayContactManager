@@ -33,7 +33,11 @@ public class ShowAllContactsList extends AppCompatActivity {
         listOfAllContacts.add( new Contact(4, "Joshua Ajiniran", "+2348109354862", new Date()));
         listOfAllContacts.add( new Contact(5, "Blessing Olabosoye", "+2348109354862", new Date()));
         listOfAllContacts.add( new Contact(6, "Dapwol Pam", "+2348109354862", new Date()));
-        listOfAllContacts.add( new Contact(1, "Eunice Otokiti", "+2348109354862", new Date()));
+        listOfAllContacts.add( new Contact(7, "Eunice Otokiti", "+2348109354862", new Date()));
+        listOfAllContacts.add( new Contact(8, "RIchard Brandson", "+2348109354862", new Date()));
+        listOfAllContacts.add( new Contact(9, "Brad Pitt", "+2348109354862", new Date()));
+        listOfAllContacts.add( new Contact(10, "Sly", "+2348109354862", new Date()));
+        listOfAllContacts.add( new Contact(11, "Iron Man", "+2348109354862", new Date()));
 
         myCustomListAdapter = new MyCustomListAdapter(this,  listOfAllContacts);
         allBirthdayContactsList.setAdapter(myCustomListAdapter);
